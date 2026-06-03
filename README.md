@@ -8,22 +8,23 @@ Analisar os gastos com viagens oficiais registradas no Portal da Transparência 
 
 ## Principais análises
 
-- Gastos por órgão
-- Gastos por cargo
-- Destinos mais frequentes
-- Evolução mensal
-- Viagens sigilosas
-- Qualidade dos dados
-- Painel executivo
+* Gastos por órgão
+* Gastos por cargo
+* Destinos mais frequentes
+* Evolução mensal
+* Viagens sigilosas
+* Qualidade dos dados
+* Painel executivo
 
 ## Tecnologias
 
-- Python
-- Pandas
-- Plotly
-- Streamlit
-- OpenPyXL
+* Python
+* Pandas
+* Plotly
+* Streamlit
+* OpenPyXL
 
 ## Autor
 
 Daniel Silva Junqueira
+
