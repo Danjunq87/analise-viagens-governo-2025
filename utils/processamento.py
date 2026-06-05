@@ -9,7 +9,7 @@ def carregar_dados():
 
     df = pd.read_csv(
         caminho,
-        encoding="utf-8",
+        encoding="utf-8-sig",
         sep=";",
         decimal=","
     )
