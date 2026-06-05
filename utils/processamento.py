@@ -7,12 +7,12 @@ def carregar_dados():
 
     caminho = "data/viagens_amostra.csv"
 
-    df = pd.read_csv(
-        caminho,
-        encoding="utf-8-sig",
-        sep=";",
-        decimal=","
-    )
+   df = pd.read_csv(
+    caminho,
+    sep=";",
+    decimal=",",
+    encoding_errors="ignore"
+)
 
     df["Despesas"] = (
         df["Valor diárias"]
