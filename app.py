@@ -6,7 +6,7 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("📊 Análise de Viagens do Governo Federal")
+st.title("📊 Painel de Viagens Oficiais do Governo Federal")
 
 st.markdown("""
 ### Bem-vindo ao Dashboard
