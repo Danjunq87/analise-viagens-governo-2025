@@ -5,7 +5,7 @@ import streamlit as st
 @st.cache_data
 def carregar_dados():
 
-    caminho = "data/2025_Viagem.csv"
+    caminho = "data/viagens_amostra.csv"
 
     df = pd.read_csv(
         caminho,

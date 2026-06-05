@@ -4,11 +4,23 @@ import plotly.express as px
 from utils.processamento import carregar_dados
 
 st.title("🌎 Destinos")
-st.caption(
-    "Fonte: Portal da Transparência do Governo Federal"
-)
 
 df = carregar_dados()
+st.sidebar.header("Filtros")
+
+orgao = st.sidebar.selectbox(
+    "Órgão",
+    ["Todos"] + sorted(
+        df["Nome órgão solicitante"]
+        .dropna()
+        .unique()
+    )
+)
+
+if orgao != "Todos":
+    df = df[
+        df["Nome órgão solicitante"] == orgao
+    ]
 
 top_destinos = (
     df
