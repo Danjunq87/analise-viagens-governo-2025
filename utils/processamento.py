@@ -1,4 +1,3 @@
-
 import pandas as pd
 import streamlit as st
 
@@ -7,12 +6,12 @@ def carregar_dados():
 
     caminho = "data/viagens_amostra.csv"
 
-   df = pd.read_csv(
-    caminho,
-    sep=";",
-    decimal=",",
-    encoding_errors="ignore"
-)
+    df = pd.read_csv(
+        caminho,
+        sep=";",
+        decimal=",",
+        encoding_errors="ignore"
+    )
 
     df["Despesas"] = (
         df["Valor diárias"]
