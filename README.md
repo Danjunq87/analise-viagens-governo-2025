@@ -1,3 +1,5 @@
+NOTE: This dashboard uses official Brazilian government data and is currently presented in Portuguese. The project demonstrates data analysis, visualization, and dashboard development skills applicable to any language or market.
+
 # Dashboard de Viagens Oficiais do Governo Federal
 
 Projeto desenvolvido com Python, Pandas, Plotly e Streamlit.
