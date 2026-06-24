@@ -4,6 +4,8 @@ An interactive dashboard analyzing official travel expenses from Brazil's Federa
 
 🔗 **[Live Demo](https://painel-de-viagens-oficiais.streamlit.app)**
 
+📁 Source Code: https://github.com/Danjunq87/analise-viagens-governo-2025
+
 ## Screenshots
 
 ![Dashboard 1](assets/analise%20viagens%201.PNG)
@@ -39,15 +41,13 @@ An interactive dashboard analyzing official travel expenses from Brazil's Federa
 - **Streamlit** — dashboard framework
 - **OpenPyXL** — Excel file handling
 
-## Features
+## Business Questions Answered
 
-- Spending analysis by government agency
-- Spending analysis by job title
-- Most frequent destinations
-- Monthly expense evolution
-- Confidential trips analysis
-- Data quality report
-- Executive summary panel
+- Which government agencies spent the most on official travel?
+- How did travel expenses evolve throughout the year?
+- What percentage of spending is classified as confidential?
+- Which destinations received the highest number of official trips?
+- What patterns emerge from public travel spending data?
 
 ## How to Run Locally
 
