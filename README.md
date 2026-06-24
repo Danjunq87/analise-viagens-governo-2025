@@ -89,7 +89,5 @@ Portal da Transparência do Governo Federal — [portaldatransparencia.gov.br](h
 
 ## Autor
 
-Daniel Silva Junqueira
-
 **Daniel Silva Junqueira**  
 [GitHub](https://github.com/Danjunq87)
